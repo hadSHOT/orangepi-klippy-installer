@@ -38,5 +38,5 @@ EOF
 create_klipper_user
 update_udev
 
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-sudo -Hu ${NEWUSER} ${SCRIPT_DIR}/services.sh
+#SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+#sudo -Hu ${NEWUSER} ${SCRIPT_DIR}/services.sh
